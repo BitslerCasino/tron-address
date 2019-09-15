@@ -1,0 +1,23 @@
+{
+  "name": "@bitsler/tron-address",
+  "version": "1.0.0-rc1",
+  "description": "generate hd address and mnemonic that is compatible with tronlink",
+  "main": "dist/main.js",
+  "module": "dist/main-esm.js",
+  "repository": "git@github.com:BitslerCasino/tron-address.git",
+  "author": "unibtc <unibtc@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "cleanup": "rm -rf dist",
+    "build": "yarn cleanup && rollup -c",
+    "publish:npm": "yarn publish --access public"
+  },
+  "dependencies": {
+    "bip32": "^2.0.4",
+    "bip39": "^3.0.2",
+    "tronweb": "^2.7.1"
+  },
+  "files": [
+    "dist"
+  ]
+}
