@@ -1,6 +1,6 @@
 {
   "name": "@bitsler/tron-address",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "generate hd address and mnemonic that is compatible with tronlink",
   "main": "dist/main.js",
   "module": "dist/main-esm.js",
@@ -15,7 +15,7 @@
   "dependencies": {
     "bip32": "^2.0.4",
     "bip39": "^3.0.2",
-    "tronweb": "^2.7.1"
+    "tronweb": "^3.0.0"
   },
   "files": [
     "dist"
